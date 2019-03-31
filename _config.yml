@@ -7,4 +7,4 @@ layouts_dir: _layouts
 includes_dir: _includes
 sass:
     sass_dir: assets/css/_sass
-    style: compressed
+    style: expanded
