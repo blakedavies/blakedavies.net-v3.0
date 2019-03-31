@@ -1,0 +1,10 @@
+title:
+url:
+twitter:
+markdown: kramdown
+plugins_dir: _plugins
+layouts_dir: _layouts
+includes_dir: _includes
+sass:
+    sass_dir: _sass
+    style: compressed
