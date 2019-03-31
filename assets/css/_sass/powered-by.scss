@@ -1,0 +1,42 @@
+#powered-by-blake-davies {
+	width:100%;
+	text-align:center;
+	background-color:rgb(255,255,255);
+}
+#powered-by-blake-davies a div.max-width-container {
+	width:100%;
+	max-width: var(--max-width-container);
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	padding:15px;
+}
+#powered-by-blake-davies a div.max-width-container .caption {
+	display:block;
+	font-family:'Quicksand';
+	color:rgb(25,27,29);
+	font-size:15px;
+	font-weight:400;
+	margin-top:0;
+	margin-bottom:5px;
+}
+#powered-by-blake-davies a div.max-width-container .logo {
+	width:auto;
+	height:30px;
+	padding-right:3.75px;
+}
+#powered-by-blake-davies a div.max-width-container .logo-name {
+	display:inline;
+	font-family:'Bebas';
+	color:rgb(25,27,29);
+	font-size:15px;
+	letter-spacing:3.75px;
+}
+#powered-by-blake-davies a div.max-width-container .copyright {
+	display:block;
+	font-family:'Quicksand';
+	color:rgb(25,27,29);
+	font-size:12.5px;
+	margin-top:15px;
+	margin-bottom:0;
+}
