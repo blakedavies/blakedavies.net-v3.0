@@ -6,5 +6,5 @@ plugins_dir: _plugins
 layouts_dir: _layouts
 includes_dir: _includes
 sass:
-    sass_dir: assets/css/_sass
-    style: expanded
+  sass_dir: assets/css/_sass
+  style: expanded
