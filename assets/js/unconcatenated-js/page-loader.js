@@ -1,1 +1,3 @@
-$(window).load(function(){$("div.page-loader").fadeOut("slow");});
+$(window).load(function () {
+	$("div.page-loader").fadeOut("slow");
+});
