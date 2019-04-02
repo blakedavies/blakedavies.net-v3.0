@@ -1,1 +1,3 @@
-$(document).ready(function(){$(".no-js").removeClass("no-js");});
+$(document).ready(function () {
+	$(".no-js").removeClass("no-js");
+});
