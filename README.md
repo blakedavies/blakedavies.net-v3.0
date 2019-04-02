@@ -1,1 +1,0 @@
-# blakedavies.net-v3.0

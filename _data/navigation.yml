@@ -1,0 +1,34 @@
+- name: Home
+  link: /
+- name: About
+  link: /about
+- name: About Blake Davies
+  link: /about-blake-davies
+- name: FAQ
+  link: /faqs
+- name: Articles
+  link: /articles
+- name: Solutions
+  link: /solutions
+- name: Website Design & Hosting
+  link: /website-design-hosting
+- name: Graphic Design
+  link: /graphic-design
+- name: Business Logos
+  link: /business-logos
+- name: Business Cards
+  link: /business-cards
+- name: Social Media Banners
+  link: /social-media-banners
+- name: Professional Email
+  link: /professional-email
+- name: Pricing
+  link: /pricing
+- name: Sign-Up Page
+  link: /sign-up-page
+- name: Contact
+  link: /contact
+- name: Thank-you Page
+  link: /thank-you-page
+- name: Gallery
+  link: /gallery
