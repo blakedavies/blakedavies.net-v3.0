@@ -483,6 +483,13 @@
 			visibility: visible;
 		}
 		/* SUBSUBMENU */
+			nav .submenu {
+				display: flex;
+				flex-direction: column;
+				font-family: var(--navbar-submenu-font-family);
+				font-size: var(--navbar-submenu-font-size);
+				color: var(--navbar-submenu-color);
+			}
 			nav.navbar-static .subsubmenu {
 				visibility: hidden;
 				opacity: 0;
