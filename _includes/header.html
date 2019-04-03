@@ -9,9 +9,16 @@
 				<ul class="flex flex-row items-end">
 					{% for item in site.data.navigation.website-pages %}
 						<li>
-							<a href="{{ item.url }}">{{ item.page }}</a>
+							<a class="submenu-trigger" href="{{ item.url }}">{{ item.page }}</a>
 							{% if entry.subfolderitems[0] %}
-								<ul>
+								<ul class="submenu">
+									{% for entry in item.subfolderitems %}
+										<li>
+											<a class="submenu-trigger" href="{{ item.url }}">{{ item.page }}</a>
+										</li>
+									{% endfor %}
+								</ul>
+							{% endif %}
 						</li>
 					{% endfor %}
 				</ul>
