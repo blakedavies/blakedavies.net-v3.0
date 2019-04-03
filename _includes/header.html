@@ -7,46 +7,13 @@
 			</a>
 			<nav class="navbar-static">
 				<ul class="flex flex-row items-end">
-					<li>
-						<a class="current-page" href="#LINK">Home</a>
-					</li>
-					<li>
-						<a class="submenu-trigger" href="#LINK">About</a>
-						<ul class="submenu">
-							<li>
-								<a href="#LINK">About Blake Davies</a>
-							</li>
-							<li>
-								<a href="#LINK">FAQs</a>
-							</li>
-							<li>
-								<a href="#LINK">Articles</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a class="submenu-trigger" href="#LINK">Solutions</a>
-						<ul class="submenu">
-							<li>
-								<a href="#LINK">Website Design & Hosting</a>
-							</li>
-							<li>
-								<a href="#LINK">Graphic Design</a>
-							</li>
-							<li>
-								<a href="#LINK">Professional Email</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href="#LINK">Pricing</a>
-					</li>
-					<li>
-						<a href="#LINK">Contact</a>
-					</li>
-					<li>
-						<a href="#LINK">Gallery</a>
-					</li>
+					{% for item in site.data.navigation.docs %}
+						<li>
+							<a href="{{ item.url }}">
+								{{ item.title}}
+							</a>
+						</li>
+					{% endfor %}
 				</ul>
 			</nav>
 			<div class="menu-icon hamburger-icon">
