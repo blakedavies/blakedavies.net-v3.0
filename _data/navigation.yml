@@ -20,43 +20,43 @@ website-pages:
   - page: Solutions
     url: /solutions
         
-    subfolderitems:
+  subfolderitems:
 
-      - page: Website Design & Hosting
-        url: /website-design-hosting
+    - page: Website Design & Hosting
+      url: /website-design-hosting
 
-      - page: Graphic Design
-        url: /graphic-design
+    - page: Graphic Design
+      url: /graphic-design
         
-      subsubfolderitems:
+    subsubfolderitems:
 
-        - page: Business Logos
-          url: /business-logos
+      - page: Business Logos
+        url: /business-logos
 
-        - page: Business Cards
-          url: /business-cards
+      - page: Business Cards
+        url: /business-cards
 
-        - page: Social Media Banners
-          url: /social-media-banners
+      - page: Social Media Banners
+        url: /social-media-banners
 
-      - page: Professional Email
-        url: /professional-email
+    - page: Professional Email
+      url: /professional-email
 
   - page: Pricing
     url: /pricing
         
-    subfolderitems:
+  subfolderitems:
 
-      - page: Sign-Up Page
-        url: /sign-up-page
+    - page: Sign-Up Page
+      url: /sign-up-page
 
   - page: Contact
     url: /contact
         
-    subfolderitems:
+  subfolderitems:
 
-      - page: Thank-you Page
-        url: /thank-you-page
+    - page: Thank-you Page
+      url: /thank-you-page
 
   - page: Gallery
     url: /gallery
