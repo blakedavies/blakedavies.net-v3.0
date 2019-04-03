@@ -1,7 +1,9 @@
-- name: Home
-  link: /
+website-pages:
+  
+  - page: Home
+    url: /
 
-- name: About
-  link: /about
+  - page: About
+    url: /about
 
   

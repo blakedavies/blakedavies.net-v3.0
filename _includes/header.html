@@ -7,10 +7,10 @@
 			</a>
 			<nav class="navbar-static">
 				<ul class="flex flex-row items-end">
-					{% for item in site.data.navigation %}
+					{% for item in site.data.navigation.website-pages %}
 						<li>
-							<a href="{{ item.link }}">
-								{{ item.name }}
+							<a href="{{ item.url }}">
+								{{ item.page }}
 							</a>
 						</li>
 					{% endfor %}
