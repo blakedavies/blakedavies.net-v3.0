@@ -3,6 +3,7 @@ url:
 twitter:
 markdown: kramdown
 plugins_dir: _plugins
+data_dir: _data
 layouts_dir: _layouts
 includes_dir: _includes
 sass:
