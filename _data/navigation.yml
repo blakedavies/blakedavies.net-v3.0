@@ -44,19 +44,9 @@ website-pages:
 
   - page: Pricing
     url: /pricing
-          
-    subfolderitems:
-
-      - page: Sign-Up Page
-        url: /sign-up-page
 
   - page: Contact
     url: /contact
-          
-    subfolderitems:
-
-      - page: Thank-you Page
-        url: /thank-you-page
 
   - page: Gallery
     url: /gallery
