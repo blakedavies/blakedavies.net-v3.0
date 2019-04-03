@@ -11,7 +11,7 @@ website-pages:
       - page: About Blake Davies
         url: /about-blake-davies
 
-      - page: FAQ
+      - page: FAQs
         url: /faqs
 
       - page: Articles
