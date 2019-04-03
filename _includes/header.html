@@ -9,17 +9,17 @@
 				<ul class="flex flex-row items-end">
 					{% for entry in site.data.navigation.website-pages %}
 						<li>
-							<a class="{% if entry.subfolderitems[0] %}submenu-trigger{% endif %}" href="{{ entry.url }}">{{ entry.page }}</a>
-							{% if entry.subfolderitems[0] %}
+							<a class="{% if entry.subpages[0] %}submenu-trigger{% endif %}" href="{{ entry.url }}">{{ entry.page }}</a>
+							{% if entry.subpages[0] %}
 								<ul class="submenu">
-									{% for entry in entry.subfolderitems %}
+									{% for entry in entry.subpages %}
 										<li>
 											<a href="{{ entry.url }}">{{ entry.page }}</a>
-											{% if entry.subsubfolderitems[0] %}
+											{% if entry.subsubpages[0] %}
 												<ul>
-													{% for subentry in entry.subsubfolderitems %}
+													{% for entry in entry.subsubpages %}
 														<li>
-															<a href="{{ subentry.url }}">{{ subentry.page }}</a>
+															<a href="{{ entry.url }}">{{ entry.page }}</a>
 														</li>
 													{% endfor %}
 												</ul>

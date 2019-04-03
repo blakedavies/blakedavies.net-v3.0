@@ -6,7 +6,7 @@ website-pages:
   - page: About
     url: /about
 
-    subfolderitems:
+    subpages:
 
       - page: About Blake Davies
         url: /about-blake-davies
@@ -20,7 +20,7 @@ website-pages:
   - page: Solutions
     url: /solutions
           
-    subfolderitems:
+    subpages:
 
       - page: Website Design & Hosting
         url: /website-design-hosting
@@ -28,7 +28,7 @@ website-pages:
       - page: Graphic Design
         url: /graphic-design
           
-        subsubfolderitems:
+        subsubpages:
 
           - page: Business Logos
             url: /business-logos
