@@ -9,9 +9,9 @@
 				<ul class="flex flex-row items-end">
 					{% for item in site.data.navigation.website-pages %}
 						<li>
-							<a href="{{ item.url }}">
-								{{ item.page }}
-							</a>
+							<a href="{{ item.url }}">{{ item.page }}</a>
+							{% if entry.subfolderitems[0] %}
+								<ul>
 						</li>
 					{% endfor %}
 				</ul>
