@@ -15,6 +15,15 @@
 									{% for entry in item.subfolderitems %}
 										<li>
 											<a href="{{ entry.url }}">{{ entry.page }}</a>
+											{% if entry.subsubfolderitems[0] %}
+												<ul>
+													{% for subentry in entry.subsubfolderitems %}
+														<li>
+															<a href="{{ subentry.url }}">{{ subentry.page }}</a>
+														</li>
+													{% endfor %}
+												</ul>
+											{% endif %}
 										</li>
 									{% endfor %}
 								</ul>
