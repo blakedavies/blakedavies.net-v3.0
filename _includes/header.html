@@ -43,9 +43,9 @@
 					{% for entry in site.data.navigation.website-pages %}
 						<li>
 							<a href="{{ entry.url }}">{{ entry.page }}</a>
-							{% if entry.subfolderitems[0] %}
+							{% if entry.subpages[0] %}
 								<ul class="submenu">
-									{% for entry in entry.subfolderitems %}
+									{% for entry in entry.subpages %}
 										<li>
 											<a href="{{ entry.url }}">{{ entry.page }}</a>
 											{% if entry.subsubpages[0] %}
