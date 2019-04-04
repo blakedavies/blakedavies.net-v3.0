@@ -483,6 +483,9 @@
 			visibility: visible;
 		}
 		/* SUBSUBMENU */
+			header.navbar-buttons-simple nav .subsubmenu {
+				background-color: var(--navbar-submenu-bgcolor);
+			}
 			nav .subsubmenu {
 				display: flex;
 				flex-direction: column;
