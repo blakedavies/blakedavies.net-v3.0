@@ -4,7 +4,7 @@ website-pages:
     url: /
 
   - page: About
-    url: /pages/about
+    url: /about
 
     subpages:
 
