@@ -9,7 +9,7 @@
 				<ul class="flex flex-row items-end">
 					{% for entry in site.data.navigation.website-pages %}
 						<li>
-							<a class="{% if entry.subpages[0] %}submenu-trigger{% endif %}" href="{{ entry.url }}">{{ entry.page }}</a>
+							<a class="{% if entry.subpages[0] %}submenu-trigger{% endif %}" href="/pages{{ entry.url }}">{{ entry.page }}</a>
 							{% if entry.subpages[0] %}
 								<ul class="submenu">
 									{% for entry in entry.subpages %}
