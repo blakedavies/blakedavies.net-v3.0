@@ -14,7 +14,7 @@
 								<ul class="submenu">
 									{% for entry in entry.subpages %}
 										<li>
-											<a  class="{% if entry.subsubpages[0] %}subsubmenu-trigger{% endif %}" href="{{ site.data.navigation.website-pages.entry.url }}/{{ entry.url }}">{{ entry.page }}</a>
+											<a  class="{% if entry.subsubpages[0] %}subsubmenu-trigger{% endif %}" href="{{ entry.url }}">{{ entry.page }}</a>
 											{% if entry.subsubpages[0] %}
 												<ul class="subsubmenu">
 													{% for entry in entry.subsubpages %}

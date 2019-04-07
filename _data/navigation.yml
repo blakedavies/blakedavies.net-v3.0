@@ -9,13 +9,13 @@ website-pages:
     subpages:
 
       - page: About Blake Davies
-        url: /pages/about-blake-davies
+        url: /pages/about/about-blake-davies
 
       - page: FAQs
-        url: /pages/faqs
+        url: /pages/about/faqs
 
       - page: Articles
-        url: /pages/articles
+        url: /pages/about/articles
 
   - page: Solutions
     url: /pages/solutions
@@ -23,24 +23,24 @@ website-pages:
     subpages:
 
       - page: Website Design & Hosting
-        url: /pages/website-design-hosting
+        url: /pages/solutions/website-design-hosting
 
       - page: Graphic Design
-        url: /pages/graphic-design
+        url: /pages/solutions/graphic-design
           
         subsubpages:
 
           - page: Business Logos
-            url: /pages/business-logos
+            url: /pages/solutions/graphic-design/business-logos
 
           - page: Business Cards
-            url: /pages/business-cards
+            url: /pages/solutions/graphic-design/business-cards
 
           - page: Social Media Banners
-            url: /pages/social-media-banners
+            url: /pages/solutions/graphic-design/social-media-banners
 
       - page: Professional Email
-        url: /pages/professional-email
+        url: /pages/solutions/professional-email
 
   - page: Pricing
     url: /pages/pricing
