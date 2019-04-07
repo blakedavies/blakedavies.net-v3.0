@@ -4,49 +4,49 @@ website-pages:
     url: /
 
   - page: About
-    url: /about
+    url: /pages/about
 
     subpages:
 
       - page: About Blake Davies
-        url: /about-blake-davies
+        url: /pages/about-blake-davies
 
       - page: FAQs
-        url: /faqs
+        url: /pages/faqs
 
       - page: Articles
-        url: /articles
+        url: /pages/articles
 
   - page: Solutions
-    url: /solutions
+    url: /pages/solutions
           
     subpages:
 
       - page: Website Design & Hosting
-        url: /website-design-hosting
+        url: /pages/website-design-hosting
 
       - page: Graphic Design
-        url: /graphic-design
+        url: /pages/graphic-design
           
         subsubpages:
 
           - page: Business Logos
-            url: /business-logos
+            url: /pages/business-logos
 
           - page: Business Cards
-            url: /business-cards
+            url: /pages/business-cards
 
           - page: Social Media Banners
-            url: /social-media-banners
+            url: /pages/social-media-banners
 
       - page: Professional Email
-        url: /professional-email
+        url: /pages/professional-email
 
   - page: Pricing
-    url: /pricing
+    url: /pages/pricing
 
   - page: Contact
-    url: /contact
+    url: /pages/contact
 
   - page: Gallery
-    url: /gallery
+    url: /pages/gallery
