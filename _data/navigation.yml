@@ -9,44 +9,44 @@ website-pages:
     subpages:
 
       - page: About Blake Davies
-        url: /pages/about/about-blake-davies
+        url: /about/about-blake-davies
 
       - page: FAQs
-        url: /pages/about/faqs
+        url: /about/faqs
 
       - page: Articles
-        url: /pages/about/articles
+        url: /about/articles
 
   - page: Solutions
-    url: /pages/solutions
+    url: /solutions
           
     subpages:
 
       - page: Website Design & Hosting
-        url: /pages/solutions/website-design-hosting
+        url: /solutions/website-design-hosting
 
       - page: Graphic Design
-        url: /pages/solutions/graphic-design
+        url: /solutions/graphic-design
           
         subsubpages:
 
           - page: Business Logos
-            url: /pages/solutions/graphic-design/business-logos
+            url: /solutions/graphic-design/business-logos
 
           - page: Business Cards
-            url: /pages/solutions/graphic-design/business-cards
+            url: /solutions/graphic-design/business-cards
 
           - page: Social Media Banners
-            url: /pages/solutions/graphic-design/social-media-banners
+            url: /solutions/graphic-design/social-media-banners
 
       - page: Professional Email
-        url: /pages/solutions/professional-email
+        url: /solutions/professional-email
 
   - page: Pricing
-    url: /pages/pricing
+    url: /pricing
 
   - page: Contact
-    url: /pages/contact
+    url: /contact
 
   - page: Gallery
-    url: /pages/gallery
+    url: /gallery
