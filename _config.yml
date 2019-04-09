@@ -2,7 +2,6 @@ title: Blake Davies
 url: 
 twitter:
 markdown: kramdown
-permalink: /:title
 plugins_dir: _plugins
 data_dir: _data
 layouts_dir: _layouts
