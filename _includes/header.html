@@ -5,6 +5,7 @@
 				<img class="logo" src="{{ site.url }}/assets/images/logo_{{ site.title | replace: ' ', '_' | downcase }}.png" alt="{{ site.title }} Logo"/>
 				<p class="logo-name">{{ site.title }}</p>
 			</a>
+		<!--
 			<nav class="navbar-static">
 				<ul class="flex flex-row items-end">
 					{% for entry in site.data.navigation.website-pages %}
@@ -28,6 +29,16 @@
 									{% endfor %}
 								</ul>
 							{% endif %}
+						</li>
+					{% endfor %}
+				</ul>
+			</nav>
+		-->
+			<nav class="navbar-static">
+				<ul class="flex flex-row items-end">
+					{% for entry in site.pages %}
+						<li>
+							<a href="{{ entry.url }}">{{ entry.page }}</a>
 						</li>
 					{% endfor %}
 				</ul>
