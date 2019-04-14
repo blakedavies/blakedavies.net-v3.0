@@ -39,10 +39,10 @@
 					{% for p in site.pages %}
 					{% if p.navbar == true %}
 						<li>
-							<a href="{{ p.url }}">{{ p.title }}</a>
+							<a class="submenu-trigger" href="{{ p.url }}">{{ p.title }}</a>
 							{% if p.has-children == true %}
 								<ul class="submenu">
-									{% for p in site.pages %}
+									{% for p in site.pages.pages %}
 										<li>
 											<a href="{{ p.url }}">{{ p.title }}</a>
 										</li>
