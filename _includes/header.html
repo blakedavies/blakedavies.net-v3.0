@@ -37,9 +37,11 @@
 			<nav class="navbar-static">
 				<ul class="flex flex-row items-end">
 					{% for p in site.pages %}
+					{% if page.navbar == true %}
 						<li>
 							<a href="{{ p.url }}">{{ p.title }}</a>
 						</li>
+					{% endif %}
 					{% endfor %}
 				</ul>
 			</nav>
