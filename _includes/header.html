@@ -36,9 +36,9 @@
 		-->
 			<nav class="navbar-static">
 				<ul class="flex flex-row items-end">
-					{% for doc in site.navigation %}
+					{% for navigation in site.navigation %}
 						<li>
-							<a href="{{ doc.url }}">{{ doc.title }}</a>
+							<a href="{{ navigation.url }}">{{ navigation.title }}</a>
 						</li>
 					{% endfor %}
 				</ul>
