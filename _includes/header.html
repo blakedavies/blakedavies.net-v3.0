@@ -40,6 +40,15 @@
 					{% if p.navbar == true %}
 						<li>
 							<a href="{{ p.url }}">{{ p.title }}</a>
+							{% if p.has-children == true %}
+								<ul class="submenu">
+									{% for p in site.pages.p %}
+										<li>
+											<a href="{{ p.url }}">{{ p.title }}</a>
+										</li>
+									{% endfor %}
+								</ul>
+							{% endif %}
 						</li>
 					{% endif %}
 					{% endfor %}
