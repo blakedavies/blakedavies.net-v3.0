@@ -36,9 +36,9 @@
 		-->
 			<nav class="navbar-static">
 				<ul class="flex flex-row items-end">
-					{% for entry in site.pages %}
+					{% for entry in site.pages.pages %}
 						<li>
-							<a href="{{ entry.url }}">{{ entry.page }}</a>
+							<a href="{{ entry.url }}">{{ entry.title }}</a>
 						</li>
 					{% endfor %}
 				</ul>
