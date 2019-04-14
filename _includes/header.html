@@ -43,11 +43,9 @@
 							{% if p.has-children == true %}
 								<ul class="submenu">
 									{% for p in site.pages %}
-									{% if p.parent == p.title}
 										<li>
 											<a href="{{ p.url }}">{{ p.title }}</a>
 										</li>
-									{% endif %}
 									{% endfor %}
 								</ul>
 							{% endif %}
