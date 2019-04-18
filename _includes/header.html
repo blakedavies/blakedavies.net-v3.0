@@ -8,6 +8,17 @@
 
 			<nav class="navbar-static">
 				<ul class="flex flex-row items-end">
+				{% for item in site.menus.header %}
+				  <li class="menu-item-{{ loop.index }}">
+				    <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+				  </li>
+				{% endfor %}
+				</ul>
+			</nav>
+
+		<!--
+			<nav class="navbar-static">
+				<ul class="flex flex-row items-end">
 					{% for p in site.pages %}
 					{% if p.navbar == true %}
 						<li>
@@ -26,6 +37,7 @@
 					{% endfor %}
 				</ul>
 			</nav>
+		-->
 
 		<!--
 			<nav class="navbar-static">
