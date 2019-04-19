@@ -11,4 +11,4 @@ sass:
   style: expanded
 collections:
   navigation:
-    output: true
+    output: true 
