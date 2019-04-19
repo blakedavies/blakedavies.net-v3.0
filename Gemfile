@@ -3,5 +3,5 @@ gem 'github-pages'
 group :jekyll_plugins do
   gem 'jekyll-menus'
   gem 'jekyll-minifier'
-  gem 'include-remote'
+  gem 'include_remote'
 end
