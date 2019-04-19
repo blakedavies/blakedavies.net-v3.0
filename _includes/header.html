@@ -5,7 +5,6 @@
 				<img class="logo" src="{{ site.url }}/assets/images/logo_{{ site.title | replace: ' ', '_' | downcase }}.png" alt="{{ site.title }} Logo"/>
 				<p class="logo-name">{{ site.title }}</p>
 			</a>
-
 			<nav class="navbar-static">
 				<ul class="flex flex-row items-end">
 				{% for item in site.menus.navbar %}
@@ -32,61 +31,7 @@
 				  </li>
 				{% endfor %}
 				</ul>
-			</nav>
-
-		<!--
-			<nav class="navbar-static">
-				<ul class="flex flex-row items-end">
-					{% for p in site.pages %}
-					{% if p.navbar == true %}
-						<li>
-							<a class="submenu-trigger" href="{{ p.url }}">{{ p.title }}</a>
-							{% if p.has-children == true %}
-								<ul class="submenu">
-									{% for p in site.pages.pages %}
-										<li>
-											<a href="{{ p.url }}">{{ p.title }}</a>
-										</li>
-									{% endfor %}
-								</ul>
-							{% endif %}
-						</li>
-					{% endif %}
-					{% endfor %}
-				</ul>
-			</nav>
-		-->
-
-		<!--
-			<nav class="navbar-static">
-				<ul class="flex flex-row items-end">
-					{% for entry in site.data.navigation.website-pages %}
-						<li>
-							<a class="{% if entry.subpages[0] %}submenu-trigger{% endif %}" href="{{ entry.url }}">{{ entry.page }}</a>
-							{% if entry.subpages[0] %}
-								<ul class="submenu">
-									{% for entry in entry.subpages %}
-										<li>
-											<a  class="{% if entry.subsubpages[0] %}subsubmenu-trigger{% endif %}" href="{{ entry.url }}">{{ entry.page }}</a>
-											{% if entry.subsubpages[0] %}
-												<ul class="subsubmenu">
-													{% for entry in entry.subsubpages %}
-														<li>
-															<a href="{{ entry.url }}">{{ entry.page }}</a>
-														</li>
-													{% endfor %}
-												</ul>
-											{% endif %}
-										</li>
-									{% endfor %}
-								</ul>
-							{% endif %}
-						</li>
-					{% endfor %}
-				</ul>
-			</nav>
-		-->
-			
+			</nav>			
 			<div class="menu-icon hamburger-icon">
 				<span></span>
 				<span></span>
