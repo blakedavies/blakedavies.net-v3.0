@@ -1,3 +1,4 @@
 /*
   X-Frame-Options: allow-from https://blakedavies-assets.netlify.com/
   X-XSS-Protection: 0 
+  Access-Control-Allow-Origin: *
