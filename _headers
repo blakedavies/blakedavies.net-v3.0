@@ -1,4 +1,11 @@
-/*
-  X-Frame-Options: allow-from https://blakedavies-assets.netlify.com/
-  X-XSS-Protection: 0 
+/assets/fonts/Bebas/*.woff2
   Access-Control-Allow-Origin: *
+  Content-Type: application/font-woff2
+
+ /assets/fonts/Bebas/*.woff
+  Access-Control-Allow-Origin: *
+  Content-Type: application/font-woff
+
+/assets/fonts/Bebas/*.ttf
+  Access-Control-Allow-Origin: *
+  Content-Type: application/font-ttf
