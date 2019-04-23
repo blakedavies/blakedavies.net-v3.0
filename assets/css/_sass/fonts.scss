@@ -1,18 +1,18 @@
 @font-face {
 	font-family:"Bebas";
-	src:url('var--(site-url)/assets/fonts/Bebas/Bebas.eot');
-	src:url('var--(site-url)/assets/fonts/Bebas/Bebas.eot?#iefix') format('embedded-opentype'),
-	url('var--(site-url)/assets/fonts/Bebas/Bebas.woff2') format('woff2'),
-	url('var--(site-url)/assets/fonts/Bebas/Bebas.woff') format('woff'),
-	url('var--(site-url)/assets/fonts/Bebas/Bebas.ttf') format('truetype'),
-	url('var--(site-url)/assets/fonts/Bebas/Bebas.svg#svgFontName') format('svg');
+	src:url('var(--site-url)/assets/fonts/Bebas/Bebas.eot');
+	src:url('var(--site-url)/assets/fonts/Bebas/Bebas.eot?#iefix') format('embedded-opentype'),
+	url('var(--site-url)/assets/fonts/Bebas/Bebas.woff2') format('woff2'),
+	url('var(--site-url)/assets/fonts/Bebas/Bebas.woff') format('woff'),
+	url('var(--site-url)/assets/fonts/Bebas/Bebas.ttf') format('truetype'),
+	url('var(--site-url)/assets/fonts/Bebas/Bebas.svg#svgFontName') format('svg');
 }
 @font-face {
 	font-family:"Quicksand";
-	src:url('var--(site-url)/assets/fonts/Quicksand/Quicksand.eot');
-	src:url('var--(site-url)/assets/fonts/Quicksand/Quicksand.eot?#iefix') format('embedded-opentype'),
-	url('var--(site-url)/assets/fonts/Quicksand/Quicksand.woff2') format('woff2'),
-	url('var--(site-url)/assets/fonts/Quicksand/Quicksand.woff') format('woff'),
-	url('var--(site-url)/assets/fonts/Quicksand/Quicksand.ttf') format('truetype'),
-	url('var--(site-url)/assets/fonts/Quicksand/Quicksand.svg#svgFontName') format('svg');
+	src:url('var(--site-url)/assets/fonts/Quicksand/Quicksand.eot');
+	src:url('var(--site-url)/assets/fonts/Quicksand/Quicksand.eot?#iefix') format('embedded-opentype'),
+	url('var(--site-url)/assets/fonts/Quicksand/Quicksand.woff2') format('woff2'),
+	url('var(--site-url)/assets/fonts/Quicksand/Quicksand.woff') format('woff'),
+	url('var(--site-url)/assets/fonts/Quicksand/Quicksand.ttf') format('truetype'),
+	url('var(--site-url)/assets/fonts/Quicksand/Quicksand.svg#svgFontName') format('svg');
 } 
